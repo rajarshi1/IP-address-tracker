@@ -38,7 +38,7 @@ function displayResults(data) {
         <p><strong>City:</strong> ${data.city || 'N/A'}</p>
         <p><strong>Region:</strong> ${data.region || 'N/A'}</p>
         <p><strong>Country:</strong> ${data.country || 'N/A'}</p>
-        <p><strong>ISP:</p>
+        <p><strong>TiemZone:</strong> ${data.timezone || 'N/A'}</p>
         `;
 }
 
