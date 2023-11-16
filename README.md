@@ -8,4 +8,4 @@ This project takes in an IP address or a domain name and outputs/provides all th
 
 Internally it uses fetch calls to ipinfo.io to get all the details. 
 
-[Site live link](ip-address-tracker-rajarshi.netlify.app)
+[Site live link](https://ip-address-tracker-rajarshi.netlify.app/)

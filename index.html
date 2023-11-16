@@ -17,12 +17,21 @@
     </div>
     <div class="container">
         <h1>IP Address Tracker</h1>
+        <h5>(Please use the format - "https://{domainName}")</h5>
         <input type="text" id="ipInput" placeholder="Enter IP Address or Domain">
         <button id="trackBtn">Track IP</button>
         <div id="results">
             <!-- Results will be displayed here -->
         </div>
         <div id="map" style="height: 400px;"></div>
+        <div id="historyWrapper"></div>
+            <div id="history" class="history-container" style="display: none;">
+                <h2>Search History</h2>
+                <ul id="historyList">
+                    <!-- History will be displayed here -->
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
